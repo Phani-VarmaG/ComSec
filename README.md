@@ -1,1 +1,1 @@
-"This is the README for the develop branch" 
+"This is the README for the master branch" 
