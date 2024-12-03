@@ -146,6 +146,27 @@ nose2 --verbose liboqs-python
 ```
 
 ---
+## Run the prototype for the 21_Telecommunication project
+
+### Prototype that tests the key encapsulation mechanism with Kyber 512
+
+The prototype that tests the key encapsulation mechanism using the parameter Kyber 512 is implemented in the file test_kem.py
+
+To execute the file:
+
+```shell
+python3 test_kem.py
+```
+
+### Prototype that tests the key encapsulation mechansim with Kyber 1024
+
+The prototype that tests the key encapsulation mechanism using the parameter Kyber 1024 is implemented in the file test_1.py, which also measures the time it takes to generate public/private keys, and encapsulate/decapsulate the ciphertexts.
+
+To execute the file:
+
+```shell
+python3 test_1.py
+```
 
 ## Usage in standalone applications
 
